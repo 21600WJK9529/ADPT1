@@ -51,11 +51,11 @@ public class GUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(155, 155, 155)
                 .addComponent(jBtnClickMe)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(174, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(45, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50))
+                .addContainerGap()
+                .addComponent(jScrollPane1)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -71,7 +71,7 @@ public class GUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBtnClickMeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnClickMeActionPerformed
-        jTxtDisplay.append("February games 2019");
+        jTxtDisplay.append("February games 2019\n");
         jTxtDisplay.append("Wargroove (Switch) – February 1.\n" +
                            "Etrian Odyssey: Nexus (3DS) – February 5.\n" +
                            "God Eater 3 (PS4, PC) – February 8.\n" +
